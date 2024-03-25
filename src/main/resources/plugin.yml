@@ -1,0 +1,5 @@
+name: PickMeUp
+main: net.njsharpe.pickmeup.PickMeUp
+version: ${version}
+
+api-version: 1.20
