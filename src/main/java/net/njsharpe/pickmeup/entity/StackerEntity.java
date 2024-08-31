@@ -15,7 +15,7 @@ public class StackerEntity {
             cloud.setGravity(false);
             cloud.setInvulnerable(true);
             cloud.setDuration(Integer.MAX_VALUE);
-            cloud.setParticle(Particle.BLOCK_CRACK, Material.AIR.createBlockData());
+            cloud.setParticle(Particle.BLOCK, Material.AIR.createBlockData());
             cloud.setWaitTime(0);
 
             cloud.addScoreboardTag(Constants.getStackerEntityTag());
